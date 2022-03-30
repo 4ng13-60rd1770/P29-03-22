@@ -18,13 +18,13 @@ function  showCharacters (characters){
     main.innerHTML = ''
     characters.forEach((character => {
         
-        let {id, name, status, species, type, gender } = character
+        let {id, name, status, species, type, gender,image } = character
 
         let characterNW = document.createElement ('div')
         characterNW.classList.add('character')
 
         characterNW.innerHTML =`
-        <img src = "" alt = "">
+        <img src = "${image}" alt = "">
         <div  class = "info">
         <h3>${name}</h3>
       <ul>
