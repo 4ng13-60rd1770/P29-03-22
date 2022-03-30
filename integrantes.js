@@ -8,11 +8,11 @@ const integrantes = [
 
   },
   {
-    nombre: "2",
+    nombre: "Angie Gordillo",
     trabajo_realizado : "",
-    edad: "",
-    ciudad: "",
-    foto: ""
+    edad: "20 Años",
+    ciudad: "Bogota D.C",
+    foto: "https://res.cloudinary.com/dgzfc4clj/image/upload/v1648671106/me_iakxsc.jpg"
 
   },
   {
