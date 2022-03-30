@@ -9,14 +9,14 @@ const integrantes = [
   },
   {
     nombre: "Angie Gordillo",
-    trabajo_realizado : "",
+    trabajo_realizado : "Habia programado anteriormente en la parte de Backend con PHP con Framework como Laravel y he manejado CMR tales como Wordpress y Umbraco este ultimo manejado con C#",
     edad: "20 Años",
     ciudad: "Bogota D.C",
     foto: "https://res.cloudinary.com/dgzfc4clj/image/upload/v1648671106/me_iakxsc.jpg"
 
   },
   {
-    nombre: "3",
+    nombre: "Sara Sofia",
     trabajo_realizado : "",
     edad: "",
     ciudad: "",
