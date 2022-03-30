@@ -24,7 +24,7 @@ function  showCharacters (characters){
         characterNW.classList.add('character')
 
         characterNW.innerHTML =`
-        <img src = "${image}" alt = "">
+        <img src="${image}" alt = "">
         <div  class = "info">
         <h3>${name}</h3>
       <ul>
@@ -38,3 +38,15 @@ function  showCharacters (characters){
         main.appendChild(characterNW)
     }));
 }
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+    const searchTerm = search.value
+    if (searchTerm && searchTerm !== '') {
+        getMovies(SEARCH_URL + searchTerm)
+        search.value = ''
+    } else {
+        window.location.reload()
+      
+    }
+})
