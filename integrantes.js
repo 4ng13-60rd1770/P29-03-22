@@ -28,7 +28,7 @@ const integrantes = [
     trabajo_realizado : "Funcionalidad del Filter, modificaciones ligeras al archivo js",
     edad: 18,
     ciudad: "Bogota D.C.",
-    foto: ""
+    foto: "https://res.cloudinary.com/dzkollux2/image/upload/v1648699296/photo_2022-03-30_22-59-09_jkbzri.jpg"
 
   },
 ]
