@@ -38,7 +38,9 @@ function  showCharacters (characters){
       <li>${type}</li>
       <li>${gender}</li>
       </ul>
-        `
+       </div> 
+              
+   `
 
         main.appendChild(characterNW)
     }));

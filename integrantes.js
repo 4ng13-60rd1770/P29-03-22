@@ -18,8 +18,8 @@ const integrantes = [
   {
     nombre: "Sara Sofia",
     trabajo_realizado : "",
-    edad: "",
-    ciudad: "",
+    edad: "22 años",
+    ciudad: "Caldas, Antioquia",
     foto: ""
 
   },
