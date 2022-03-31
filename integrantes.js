@@ -9,7 +9,7 @@ const integrantes = [
   },
   {
     nombre: "Angie Gordillo",
-    trabajo_realizado : "Habia programado anteriormente en la parte de Backend con PHP con Framework como Laravel y he manejado CMR tales como Wordpress y Umbraco este ultimo manejado con C#",
+    trabajo_realizado : " Se consumio el API dentro de archivo de JS, se realizó el css del buscador, y parte de las tarjetas. Habia programado anteriormente en la parte de Backend con PHP con Framework como Laravel y he manejado CMR tales como Wordpress y Umbraco este ultimo manejado con C#",
     edad: "20 Años",
     ciudad: "Bogota D.C",
     foto: "https://res.cloudinary.com/dgzfc4clj/image/upload/v1648671106/me_iakxsc.jpg"
