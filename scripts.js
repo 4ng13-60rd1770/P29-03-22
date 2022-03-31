@@ -9,22 +9,22 @@ const getCharacters = (url) => {
 
     const petition = fetch (url)
     petition.then (res => res.json())
-            .then(data => console.log(data.results))
+            .then(data => showCharacters(data.results))
            
 }
 getCharacters(API_URL)
 
 function  showCharacters (characters){
     main.innerHTML = ''
-    characters.forEach(character => {
+    characters.forEach((character => {
         
-        let {id, name, status, species, type, gender } = character
+        let {id, name, status, species, type, gender,image } = character
 
         let characterNW = document.createElement ('div')
         characterNW.classList.add('character')
 
-        character.innerHTML=`
-        <img src = "${API_URL + id}" alt = "">
+        characterNW.innerHTML =`
+        <img src = "${image}" alt = "">
         <div  class = "info">
         <h3>${name}</h3>
       <ul>
@@ -36,5 +36,5 @@ function  showCharacters (characters){
         `
 
         main.appendChild(characterNW)
-    });
+    }));
 }
