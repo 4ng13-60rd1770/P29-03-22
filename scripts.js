@@ -38,3 +38,19 @@ function  showCharacters (characters){
         main.appendChild(characterNW)
     }));
 }
+
+//filter of API content
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+    let input = document.getElementById ('search').value
+    const searchTerm = search
+    if (searchTerm && searchTerm !== '') {
+        getCharacters(API_URL + searchTerm)
+        search.value = ''
+        
+    } else {
+        window.location.reload()
+      
+    }
+})
