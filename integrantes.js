@@ -24,10 +24,10 @@ const integrantes = [
 
   },
   {
-    nombre: "4",
-    trabajo_realizado : "",
-    edad: 28,
-    ciudad: "",
+    nombre: "Johan Castañeda",
+    trabajo_realizado : "Funcionalidad del Filter, modificaciones ligeras al archivo js",
+    edad: 18,
+    ciudad: "Bogota D.C.",
     foto: ""
 
   },
