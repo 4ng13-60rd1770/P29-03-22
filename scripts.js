@@ -44,6 +44,8 @@ function  showCharacters (characters){
     }));
 }
 
+//Función de búsqueda
+
 form.addEventListener('submit', e =>{
     e.preventDefault()
    let SEARCH_URL = 'https://rickandmortyapi.com/api/character/?name='
