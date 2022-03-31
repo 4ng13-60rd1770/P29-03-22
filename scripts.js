@@ -23,17 +23,19 @@ function  showCharacters (characters){
         let characterNW = document.createElement ('div')
         characterNW.classList.add('character')
 
-        characterNW.innerHTML =`
+        characterNW.innerHTML +=`
         <img src = "${image}" alt = "">
-        <div  class = "info">
-        <h3>${name}</h3>
+        <div  class = "character">
+        <p><h3>${name}</h3></p>
       <ul>
       <li>${status}</li>
       <li>${species}</li>
       <li>${type}</li>
       <li>${gender}</li>
       </ul>
-        `
+       </div> 
+              
+   `
 
         main.appendChild(characterNW)
     }));
