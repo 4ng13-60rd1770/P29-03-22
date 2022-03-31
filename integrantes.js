@@ -17,10 +17,10 @@ const integrantes = [
   },
   {
     nombre: "Sara Sofia",
-    trabajo_realizado : "",
+    trabajo_realizado : "Realicé parte del CSS, cambios ligeros al archivo js",
     edad: "22 años",
     ciudad: "Caldas, Antioquia",
-    foto: ""
+    foto: "https://res.cloudinary.com/dxnswwqek/image/upload/v1648697463/samples/WhatsApp_Image_2022-03-28_at_19.19.59_tzrrqe.jpg"
 
   },
   {
