@@ -5,15 +5,20 @@ const search = document.getElementById ('search');
 const main = document.getElementById ('main');
 
 
+
+document.addEventListener('DOMContentLoaded', () => {
+        getCharacters(API_URL)
+})
+
 const getCharacters = (url) => {
 
     const petition = fetch (url)
     petition.then (res => res.json())
             .then(data => showCharacters(data.results))
-           
+           .catch(err => console.log(err))
 }
-getCharacters(API_URL)
 
+// getCharacters(API_URL)
 function  showCharacters (characters){
     main.innerHTML = ''
     characters.forEach((character => {
@@ -39,14 +44,17 @@ function  showCharacters (characters){
     }));
 }
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', e =>{
     e.preventDefault()
-    const searchTerm = search.value
-    if (searchTerm && searchTerm !== '') {
-        getMovies(SEARCH_URL + searchTerm)
+   let SEARCH_URL = 'https://rickandmortyapi.com/api/character/?name='
+    const buscar = search.value
+    console.log(buscar)
+    if(buscar !== ''){
+        getCharacters(SEARCH_URL+buscar)
         search.value = ''
-    } else {
+    }
+    else{
         window.location.reload()
-      
     }
 })
+
