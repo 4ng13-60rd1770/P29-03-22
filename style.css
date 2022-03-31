@@ -17,7 +17,8 @@ footer{
     font-family: 'Acme', sans-serif;
     border-radius:5px;
     padding: 10px 1em ;
-    float:right;
+    margin: 5%;
+    justify-content: right;
     
   
 }
@@ -38,7 +39,6 @@ h2{
 .character{
     display: flex;
     text-align: center; 
-    justify-content: space-between;
     font-family: 'Acme', sans-serif;
     background-color: #2d4250;
     color: #fff;
@@ -47,8 +47,8 @@ h2{
     text-decoration: double;
     margin-bottom: 15px;
     float:left;
-    margin-left:5px; 
-    
+    margin-right:5px; 
+    margin-left:5%; 
          
 }
 .character h3{
